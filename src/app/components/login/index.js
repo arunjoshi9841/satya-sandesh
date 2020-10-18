@@ -41,7 +41,7 @@ const Login = () => {
         className="w-full flex flex-col justify-center"
         onClick={() => dispatch(setError(""))}
       >
-        <img src="assets/logo1.png" alt="logo" className="w-64 mb-12 transition duration-500 ease-in-out" />
+        <img src="/assets/logo1.png" alt="logo" className="w-64 mb-12 transition duration-500 ease-in-out" />
         {loginError !== "" && (
           <div className="py-4">
             <Alert

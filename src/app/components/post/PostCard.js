@@ -25,7 +25,7 @@ const PostCard = ({ post }) => {
     <div
       className={`flex flex-col justify-between shadow p-4 ${
         post.status === 'draft' ? `cursor-pointer hover:shadow-lg` : ''
-      } m-2 w-56`}
+      } m-2 w-64`}
       style={{borderTop: "4px solid "+getColor()}}
       onClick={handleSelection}
     >
